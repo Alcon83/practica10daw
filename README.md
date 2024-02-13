@@ -19,7 +19,7 @@ Para comenzar, realiza los siguientes pasos:
 
 - cd practica10daw
 
-- cambiar a la rama docker: git switch [main_docker_compose]
+- cambiar a la rama docker: git switch main_docker_compose
 
 ## Ejecución del Proyecto
 
