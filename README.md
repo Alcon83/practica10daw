@@ -15,12 +15,12 @@ Para ejecutar este proyecto, necesitas tener instalado:
 
 Para comenzar, realiza los siguientes pasos:
 
-git clone [URL del repositorio]
-cd [nombre del directorio del proyecto]
+git clone [[URL del repositorio](https://github.com/Alcon83/practica10daw.git)]
+cd [practica10daw]
 
 ## Ejecución del Proyecto
 
-Para levantar todos los servicios definidos en `docker-compose.yml`, ejecuta:
+Para levantar todos los servicios definidos en `docker-compose.yml`, ejecutar:
 
 docker-compose up -d
 
@@ -37,7 +37,7 @@ El proyecto utiliza `docker-compose.yml` para definir y correr los servicios nec
 
 ## Acceso a la Aplicación
 
-Una vez que los servicios están en marcha, accede a la aplicación a través de:
+Una vez que los servicios están en marcha, accedemos a la aplicación a través de:
 
 - **Frontend**: http://localhost:3000
 - **Backend**: http://localhost:8000
@@ -45,13 +45,12 @@ Una vez que los servicios están en marcha, accede a la aplicación a través de
 - **Prometheus**: http://localhost:9090 
 - **Grafana**: http://localhost:3500 
 
-Reemplaza `localhost` con la dirección IP de tu Docker host si es necesario.
 
 ## Monitorización
 
-Si configuraste Prometheus y Grafana, accede a Grafana en http://localhost:3500 para visualizar dashboards de métricas recogidas por Prometheus.
+Se puede acceder a Grafana en http://localhost:3500 para visualizar dashboards de métricas recogidas por Prometheus.
 
 ## Mantenimiento y Backups
 
-El proyecto incluye scripts para restaurar la primera vez que se despliega, teniendo asi la estructura básica para empezar a trabajar.
+El proyecto incluye scripts para restaurar la primera vez que se despliega, teniendo asi la estructura básica para empezar a trabajar y en backend un script para esperar que mongoeste cargado del todo antes de desplegarse
 
