@@ -15,9 +15,11 @@ Para ejecutar este proyecto, necesitas tener instalado:
 
 Para comenzar, realiza los siguientes pasos:
 
-git clone [[URL del repositorio](https://github.com/Alcon83/practica10daw.git)]
-cd [practica10daw]
+git clone [URL del repositorio](https://github.com/Alcon83/practica10daw.git)
 
+cd practica10daw
+
+cambiar a la rama docker: git switch [main_docker_compose]
 ## Ejecución del Proyecto
 
 Para levantar todos los servicios definidos en `docker-compose.yml`, ejecutar:
@@ -52,5 +54,5 @@ Se puede acceder a Grafana en http://localhost:3500 para visualizar dashboards d
 
 ## Mantenimiento y Backups
 
-El proyecto incluye scripts para restaurar la primera vez que se despliega, teniendo asi la estructura básica para empezar a trabajar y en backend un script para esperar que mongoeste cargado del todo antes de desplegarse
+El proyecto incluye scripts para restaurar la primera vez que se despliega el dump de mongo, teniendo asi la estructura básica para empezar a trabajar y en backend un script para esperar que mongoeste cargado del todo antes de desplegarse
 
