@@ -9,7 +9,7 @@ services:
     volumes:
       - ./script:/docker-entrypoint-initdb.d/
       - ./mongo/dump:/db-dump
-      - mongodb_data45:/data/db
+      - mongodb_data52:/data/db
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
@@ -109,5 +109,5 @@ networks:
     driver: bridge
 
 volumes:
-  mongodb_data45:
+  mongodb_data52:
   myGrafanaVol:
