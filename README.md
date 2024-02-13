@@ -16,9 +16,7 @@ Para ejecutar este proyecto, necesitas tener instalado:
 Para comenzar, realiza los siguientes pasos:
 
 - git clone [URL del repositorio](https://github.com/Alcon83/practica10daw.git)
-
 - cd practica10daw
-
 - cambiar a la rama docker: git switch main_docker_compose
 
 ## Ejecución del Proyecto
